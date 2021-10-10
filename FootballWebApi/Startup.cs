@@ -57,7 +57,7 @@ namespace FootballWebApi
                 //SwaggerConfig.UseAcceptHeaderApiVersion("v");
 
         });  
-            x
+            
 
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                .AddJwtBearer(options =>
